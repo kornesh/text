@@ -60,9 +60,9 @@ http_archive(
 http_archive(
     name = "com_google_sentencepiece",
     strip_prefix = "sentencepiece-1.0.0",
-    sha256 = "c05901f30a1d0ed64cbcf40eba08e48894e1b0e985777217b7c9036cac631346",
+    sha256 = "fccf49b5e94240eb878cfbaa7d4135041970c1a70a3ff7757b343c1d5984c6fd",
     urls = [
-        "https://github.com/google/sentencepiece/archive/1.0.0.zip"
+        "https://github.com/google/sentencepiece/archive/v0.1.85.zip"
     ],
 )
 
@@ -90,10 +90,10 @@ http_archive(
 
 http_archive(
     name = "org_tensorflow",
-    strip_prefix = "tensorflow-2.0.0",
-    sha256 = "4c13e99a2e5fdddc491e003304141f9d9060e11584499061b1b4224e500dc49a",
+    strip_prefix = "tensorflow-2.1.0",
+    sha256 = "e82f3b94d863e223881678406faa5071b895e1ff928ba18578d2adbbc6b42a4c",
     urls = [
-        "https://github.com/tensorflow/tensorflow/archive/v2.0.0.zip"
+        "https://github.com/tensorflow/tensorflow/archive/v2.1.0.zip"
     ],
 )
 
