@@ -16,9 +16,8 @@ OSS_DEPS = [
     "@com_google_absl//absl/strings",
     "@com_google_absl//absl/types:optional",
     "@com_google_absl//absl/types:span",
-	"@org_tensorflow//tensorflow/core:framework",
-    "@org_tensorflow//tensorflow/core:lib",
-    "@org_tensorflow//tensorflow/core:protos_all_cc",
+    "@local_config_tf//:libtensorflow_framework",
+    "@local_config_tf//:tf_header_lib",
 ]
 
 tf_kernel_library(

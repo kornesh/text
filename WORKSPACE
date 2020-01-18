@@ -60,9 +60,9 @@ http_archive(
 http_archive(
     name = "com_google_sentencepiece",
     strip_prefix = "sentencepiece-1.0.0",
-    sha256 = "fccf49b5e94240eb878cfbaa7d4135041970c1a70a3ff7757b343c1d5984c6fd",
+    sha256 = "c05901f30a1d0ed64cbcf40eba08e48894e1b0e985777217b7c9036cac631346",
     urls = [
-        "https://github.com/google/sentencepiece/archive/v0.1.85.zip"
+        "https://github.com/google/sentencepiece/archive/1.0.0.zip"
     ],
 )
 

@@ -44,9 +44,8 @@ def py_tf_text_library(
         copts = [ "-pthread", ],
         alwayslink = 1,
         deps = cc_op_kernels + [
-	        "@org_tensorflow//tensorflow/core:framework",
-            "@org_tensorflow//tensorflow/core:lib",
-            "@org_tensorflow//tensorflow/core:protos_all_cc",
+            "@local_config_tf//:libtensorflow_framework",
+            "@local_config_tf//:tf_header_lib",
         ],
     )
 
